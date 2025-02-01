@@ -699,7 +699,6 @@ margin-bottom: 16px;
 
 .input-wrap{
     position: relative;
-    margin-bottom: 8px;
 }
 
 .icon-user{
@@ -714,6 +713,10 @@ margin-bottom: 16px;
 }
 
 .wrap-div{
+    margin-bottom: 8px;
+}
+
+.wrap-coment{
     margin-bottom: 16px;
 }
 
