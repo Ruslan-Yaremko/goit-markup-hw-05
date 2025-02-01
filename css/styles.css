@@ -489,6 +489,15 @@ img{
     margin-left: 80px;
 }
 
+.footer-subscride{
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #fff;
+margin-bottom: 16px;
+}
+
 .footer-email{
     border: 1px solid #fff;
 border-radius: 4px;
@@ -500,8 +509,6 @@ color: #ffffff;
 }
 
 .form-footer{
-    display: flex;
-    gap: 24px;
 }
 
 .footer-email::placeholder{
@@ -655,8 +662,6 @@ gap: 16px;
    background-color: #404bbf;
    fill: #ffffff;
 }
-
-
 
 .text-modal{
     font-weight: 500;
