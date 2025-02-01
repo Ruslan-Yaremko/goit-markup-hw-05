@@ -513,6 +513,8 @@ color: #ffffff;
 }
 
 .form-footer{
+    display: flex;
+    gap: 24px;
 }
 
 .footer-email::placeholder{
