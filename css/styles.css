@@ -757,9 +757,6 @@ letter-spacing: 0.04em;
 color: #8e8f99;
 margin-top: 22px;
 margin-bottom: 22px;
-display: flex;
-align-items: center;
-justify-content: center;
 }
 
 .modal-texarea::placeholder{
@@ -788,10 +785,6 @@ color: #4d5ae5;
     justify-content: center;
     fill: transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.span-selekt{
-    display: inline-flex;
 }
 
 .input-textarea:checked + .text-cekh .selekt{
