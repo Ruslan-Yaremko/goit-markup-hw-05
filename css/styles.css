@@ -663,6 +663,7 @@ border: none;
 .close-modal:focus{
    background-color: #404bbf;
    fill: #ffffff;
+   border: none; 
 }
 
 .text-modal{
@@ -698,6 +699,7 @@ margin-bottom: 16px;
 
 .input-wrap{
     position: relative;
+    margin-bottom: 16px;
 }
 
 .icon-user{
@@ -782,7 +784,7 @@ color: #4d5ae5;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     margin-right: 8px;
-    display: inline-flex; 
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
@@ -804,13 +806,15 @@ text-align: center;
 color: #fff;
 border-radius: 4px;
 padding: 16px 32px;
-width: 169px;
+min-width: 169px;
+cursor: pointer;
 height: 56px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: #4d5ae5;
 display: flex;
 align-items: center;
 justify-content: center;
+display: block; 
 margin: 0 auto;
 border: none;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
